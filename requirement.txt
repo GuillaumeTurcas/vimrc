@@ -1,0 +1,2 @@
+pynvim --upgrade
+autopep8
