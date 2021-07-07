@@ -153,6 +153,7 @@ endfunction
 
 augroup goyo_markdown
   autocmd!
+  autocmd BufNewFile *.md r ~/.config/nvim/files/init.md
   autocmd BufNewFile,BufRead * call s:auto_goyo()
 augroup END
 
