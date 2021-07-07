@@ -98,6 +98,7 @@ set laststatus=2
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 let python_highlight_all = 1
 let g:deoplete#enable_at_startup = 1
+let mapleader = ","
 
 map <C-S-Down>  :tabnew <CR>
 nmap <C-S-Right> :tabnext <CR>
