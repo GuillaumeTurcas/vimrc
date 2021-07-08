@@ -10,6 +10,7 @@ Plugin 'mhartington/oceanic-next'             " Oceanic Next theme
 Plugin 'sickill/vim-monokai'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'morhetz/gruvbox'
+Plugin 'reedes/vim-colors-pencil'
 Plugin 'arzg/vim-colors-xcode'
 Plugin 'sonph/onehalf', { 'rtp': 'vim' }
 Plugin 'frazrepo/vim-rainbow'
@@ -95,9 +96,6 @@ set title
 set hlsearch
 set laststatus=2
 
-let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
-let python_highlight_all = 1
-let g:deoplete#enable_at_startup = 1
 let mapleader = ","
 
 map <C-S-Down>  :tabnew <CR>
@@ -138,6 +136,7 @@ function! s:auto_goyo()
   if &ft == 'markdown'
     Goyo 80
     Limelight
+    colorscheme pencil
     imap q1 #
     imap w2 ##
     imap e3 ###
@@ -154,7 +153,7 @@ endfunction
 
 augroup goyo_markdown
   autocmd!
-  autocmd BufNewFile *.md r ~/.config/nvim/files/init.md
+  " autocmd BufNewFile *.md r ~/.config/nvim/files/init.md
   autocmd BufNewFile,BufRead * call s:auto_goyo()
 augroup END
 
