@@ -23,7 +23,6 @@ Plugin 'machakann/vim-highlightedyank'    " highlight lines while yanking
 Plugin 'chrisbra/csv.vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'tell-k/vim-autopep8'              " Auto Pep-8
-Plugin 'voldikss/vim-floaterm'
 
 " Semantic language support
 Plugin 'ncm2/ncm2'                        " autocompletion
@@ -107,7 +106,7 @@ nmap <C-Right> :tabnext <CR>
 nmap <C-Left>  :tabprevious <CR>
 
 nmap <C-n> :NERDTreeToggle<CR>
-nmap <C-t> :FloatermNew<CR>
+nmap <C-t> :term<CR>
 
 nmap <C-q> :q!<CR>
 nmap q :q<CR>
@@ -115,6 +114,8 @@ nmap q :q<CR>
 nmap <C-l> :Limelight <CR>
 nmap <C-k> :Limelight! <CR>
 nmap <C-a> :Autopep8 <CR> :q <CR>
+
+tnoremap jj <C-\><C-n>
 
 colorscheme xcodedarkhc
 syntax on
