@@ -67,7 +67,6 @@ filetype plugin indent on    " required
 
 imap jj <Esc>
 
-
 nmap j gj
 nmap k gk
 
