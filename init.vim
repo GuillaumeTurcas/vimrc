@@ -97,12 +97,9 @@ set laststatus=2
 
 let mapleader = ","
 
-map <C-S-Down>  :tabnew <CR>
-nmap <C-S-Right> :tabnext <CR>
-nmap <C-S-Left>  :tabprevious <CR>
-map <C-Down>  :tabnew <CR>
-nmap <C-Right> :tabnext <CR>
-nmap <C-Left>  :tabprevious <CR>
+map <C-m>  :tabnew <CR>
+nmap <C-k> :tabnext <CR>
+nmap <C-j>  :tabprevious <CR>
 
 nmap <C-n> :NERDTreeToggle<CR>
 nmap <C-t> :term<CR>
@@ -111,7 +108,7 @@ nmap <C-q> :q!<CR>
 nmap q :q<CR>
 
 nmap <C-l> :Limelight <CR>
-nmap <C-k> :Limelight! <CR>
+nmap <C-;> :Limelight! <CR>
 nmap <C-a> :Autopep8 <CR> :q <CR>
 
 tnoremap jj <C-\><C-n>
