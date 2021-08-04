@@ -108,7 +108,7 @@ nmap <C-q> :q!<CR>
 nmap q :q<CR>
 
 nmap <C-l> :Limelight <CR>
-nmap <C-;> :Limelight! <CR>
+nmap <C-p> :Limelight! <CR>
 nmap <C-a> :Autopep8 <CR> :q <CR>
 
 tnoremap jj <C-\><C-n>
