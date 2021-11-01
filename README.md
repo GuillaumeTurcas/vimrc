@@ -4,10 +4,10 @@ Only works with  nvim !
 
 Follow the instructions
 
-```{bash}
-pip install -r .config/nvim/requirement.txt
-
+``````
 git clone https://github.com/GuillaumeTurcas/vimrc
+
+pip install -r .config/nvim/requirement.txt
 
 mv vimrc .config/nvim
 
