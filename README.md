@@ -5,16 +5,16 @@ Need nvim !
 Follow the instructions
 
 ```{bash}
-git clone https://github.com/GuillaumeTurcas/vim
+git clone https://github.com/GuillaumeTurcas/vimrc
 
-mv vim .config/nvim
+mv vimrc .config/nvim
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
 
-nvim .config/nvim/init.vim
-
-:PluginInstall
+nvim ~/.config/nvim/init.vim
 
 pip install -r .config/nvim/requirement.txt
+
+:PluginInstall
 
 ```
