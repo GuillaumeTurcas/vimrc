@@ -16,5 +16,3 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vund
 nvim ~/.config/nvim/init.vim
 
 :PluginInstall
-
-```
